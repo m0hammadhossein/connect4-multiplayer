@@ -8,7 +8,7 @@ class Settings:
     NONE_COLOR = 0
     WHITE = 1
     BLACK = 2
-    EMPTY = 42
+    EMPTY = 42  # Number of vacancies
     PLAYER = 1
     PIECES = {WHITE: 'X', BLACK: 'O', NONE_COLOR: '.'}
     BOARD = np.zeros((ROWS, COLUMNS), dtype=np.int32)
